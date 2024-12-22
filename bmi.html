@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Knowledge Park International School</h1>
+        <p class="subheader">Web-App created by Abdul Munaam X-B1</p>
+    </header>
+
+    <main>
+        <div class="bmi-box">
+            <div class="input-section">
+                <label for="heightFeet">Height:</label>
+                <input type="number" id="heightFeet" placeholder="ft">
+                <input type="number" id="heightInches" placeholder="inch" value="0">
+            </div>
+            <div class="input-section">
+                <label for="weight">Weight:</label>
+                <input type="number" id="weight" placeholder="kg">
+            </div>
+            <button id="calculateButton">Calculate BMI</button>
+            <div class="output-section">
+                <p id="bmiResult"><b>Your BMI:</b> </p>
+                <p id="categoryResult"><b>Category:</b> </p>
+            </div>
+        </div>
+
+        <div class="categories">
+            <div id="underweightCircle" class="category-circle pale-yellow">Underweight: Below 18.5</div>
+            <div id="normalCircle" class="category-circle green">Normal: 18.5 - 24.9</div>
+            <div id="overweightCircle" class="category-circle amber">Overweight: 25 - 29.9</div>
+            <div id="obesityCircle" class="category-circle red">Obesity: 30+</div>
+            <div id="severeObesityCircle" class="category-circle dark-red">Severe Obesity: 40+</div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

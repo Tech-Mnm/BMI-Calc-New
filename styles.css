@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+header .subheader {
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+/* BMI Box */
+.bmi-box {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 70%; /* Reduced width from 80% to 70% */
+    max-width: 350px; /* Reduced max-width from 400px to 350px */
+    margin: 0 auto;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-section {
+    margin: 1rem 0;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+input[type="number"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+    width: 80px;
+    text-align: center;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.output-section p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Category Indicators */
+.categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.category-circle {
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    text-align: center;
+    font-size: 0.9rem;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pale-yellow {
+    background-color: #fff7d1;
+}
+
+.green {
+    background-color: #c8f7c5;
+}
+
+.amber {
+    background-color: #ffd966;
+}
+
+.red {
+    background-color: #f5a3a3;
+}
+
+.dark-red {
+    background-color: #d9534f;
+}
+
+.highlight {
+    border: 3px solid black;
+}
